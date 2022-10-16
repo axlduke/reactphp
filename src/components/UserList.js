@@ -31,7 +31,7 @@ const UserList = () => {
   };
 
   const deleteConfirm = (id) => {
-    if (window.confirm("Are you sure? "+id)) {
+    if (window.confirm("Are you sure? "+id)) { // need to fix the delete button coz no response
       deleteUser(id);
     }
   };
